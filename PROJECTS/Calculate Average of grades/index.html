@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sum with Javascript</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Interesting content">
+    <meta name="author" content="Leslie8826">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<header>
+    <div id="rightHeader">
+        <script type="text/javascript">
+            function calculateSum() {
+                var nu1= parseInt(document.getElementById('nu1').value);
+                var nu2= parseInt(document.getElementById('nu2').value);
+                document.getElementById('r').value= nu1+nu2;
+            }
+        </script>
+
+        <p>nb1 <input type="text" name="nb1" id="nu1"></p>
+        <p>nb2 <input type="text" name="nb2" id="nu2"></p>
+        <p>Results <input type="text" name="r" id="r"></p>
+        <button type="button" onclick="calculateSum()">calculate the sum</button>
+    </div>
+
+</header>
+
+<section>
+    <div class="parent">
+        <div id="mainLeft">
+            <h1><p> Enter your grades below: </p></h1>
+            <h1><p>---------------------------------------------</p></h1>
+
+        <p>................................................................</p>
+        <p>.................................................................</p>
+
+            <script type="text/javascript" src="calculate.js">
+            </script>
+
+            <p>Grade1 <input type="text" name="numb1" id="numb1"></p>
+            <p>Grade2 <input type="text" name="numb2" id="numb2"></p>
+            <p>Grade3 <input type="text" name="numb3" id="numb3"></p>
+            <p>Grade4 <input type="text" name="numb4" id="numb4"></p>
+            <p>Grade5 <input type="text" name="numb5" id="numb5"></p>
+            <p>Grade6 <input type="text" name="numb6" id="numb6"></p>
+            <br>
+            <h1><p> Compute average of grades here: </p></h1>
+            <h1><p>---------------------------------------------</p></h1>
+            <p>Average <input type="text" name="re2" id="re2"></p>
+            <button type="button" onclick="calculate()">Compute Average</button>
+        </div>
+
+        <div id="mainRight">
+            <script type="text/javascript">
+                function calculateSum2() {
+                    var n1= parseInt(document.getElementById('nb1').value);
+                    var n2= parseInt(document.getElementById('nb2').value);
+                    var n3= parseInt(document.getElementById('nb3').value);
+                    document.getElementById('resu').value = n1+n2+n3;
+                }
+            </script>
+            <p>nb1 <input type="text" name="nb1" id="nb1"></p>
+            <p>nb2 <input type="text" name="nb2" id="nb2"></p>
+            <p>nb3 <input type="text" name="nb3" id="nb3"></p>
+            <p>Results <input type="text" name="resu" id="resu"></p>
+            <button type="button" onclick="calculateSum2()">calculate the sum</button>
+
+           
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div id="footerLeft">
+        <p>&copy; Calculation</p>
+
+    </div>
+    <div id="footerRight">
+
+    </div>
+</footer>
+
+</body>
+</html>
