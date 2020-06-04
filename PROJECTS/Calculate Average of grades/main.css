@@ -1,1 +1,78 @@
 
+/*Rules for the header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 10px;
+    border: 5px solid black;
+    margin-bottom: 0px;
+    background-color: greenyellow;
+}
+
+
+/* rules for the right header */
+#rightHeader {
+    display: flex;
+}
+
+
+/* RULES FOR MAIN PART */
+section{
+    margin-bottom: 0px;
+}
+
+.parent{
+    display: flex;
+    font-family: arial, sans-serif;
+    border: 1px solid black;
+}
+
+#mainLeft{
+    width: 50%;
+    padding: 2em;
+    color: black;
+    background: palegreen;
+    min-height: 500px;
+    text-align: center;
+}
+
+#mainRight{
+    width: 50%;
+    padding: 2em;
+    color: #222;
+    background: lightseagreen;
+    min-height: 500px;
+}
+
+/* BODY SPECS*/
+#mainRight h1{
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding: 15px 0;
+    font-size: 0.8em;
+    background-color: greenyellow;
+}
+
+#footerLeft {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0 0 0px;
+    width: 300px;
+}
+
+#footerRight {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    width: 180px;
+    padding-top: 12px;
+}
+
